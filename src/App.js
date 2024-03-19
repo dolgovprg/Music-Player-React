@@ -148,7 +148,7 @@ function App() {
   }
 
 
-  const vidArray = ['./Assets/Videos/video1.mp4','./Assets/Videos/video2.mp4','./Assets/Videos/video3.mp4','./Assets/Videos/video4.mp4','./Assets/Videos/video5.mp4','./Assets/Videos/video6.mp4'];
+  const vidArray = ['./Assets/Videos/video1.mp4','./Assets/Videos/video2.mp4'];
 
   const handleChangeBackground = ()=>{
     if (videoIndex >= vidArray.length - 1) {
@@ -184,10 +184,10 @@ function App() {
       <div className="changeBackBtn" onClick={handleChangeBackground}>
         Change Background
       </div>
-      <a href="https://www.youtube.com/@teenage-programmer" title='Subscribe' className='youtube-Subs'>
+      {/* <a href="https://www.youtube.com/@teenage-programmer" title='Subscribe' className='youtube-Subs'>
         <img src="./Assets/Images/Youtube_logo.png" alt="Youtube Logo"/>
         <p>Teenage Programmer</p>
-      </a>
+      </a> */}
     </div>
     </>
   );
